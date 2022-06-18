@@ -57,7 +57,7 @@ console.log(getFullNameResults);
 
 // NOT SURE IF THIS IS CORRECT
 function cube(number) {
-  return Math.pow(5, 3);
+  return Math.pow(number, 3);
 }
 
 var cubeResults = cube(5);
