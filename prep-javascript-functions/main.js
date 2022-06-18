@@ -19,13 +19,13 @@ function getGreeting(name) {
 var getGreetingResult = getGreeting('world!');
 console.log(getGreetingResult);
 
-// NOT UNDERSTANDING
-// function addAndMultiply(num1, num2) {
+function addAndMultiply(num1, num2) {
+  var add = num1 + num2;
+  return add * 5;
+}
 
-// }
-
-// var addAndMultiplyResult = addAndMultiply(10, 5);
-// console.log(addAndMultiplyResult);
+var addAndMultiplyResult = addAndMultiply(10, 5);
+console.log(addAndMultiplyResult);
 
 function multiplyAndDivideBy5(c, d) {
   return c * d / 5;
